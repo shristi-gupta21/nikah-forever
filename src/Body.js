@@ -3,7 +3,7 @@ import React from "react";
 const Body = () => {
   return (
     <div className="body">
-      <video width="100%" height="1070px" autoPlay loop muted>
+      <video width="100%" height="100%" autoPlay loop muted>
         <source
           src={process.env.PUBLIC_URL + "./assets/video.mp4"}
           type="video/mp4"
